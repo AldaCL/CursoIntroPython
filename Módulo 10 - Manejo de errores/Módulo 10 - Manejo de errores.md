@@ -60,6 +60,7 @@ Traceback (most recent call last):
   File "/tmp/open.py", line 2, in main
     open("/path/to/mars.jpg")
 FileNotFoundError: [Errno 2] No such file or directory: '/path/to/mars.jpg'
+
 ```
 La salida de error tiene más sentido ahora. Las rutas de acceso apuntan a un único archivo denominado *open.py*. La salida menciona que el error se inicia en la línea 5, que incluye la llamada a `main()`. A continuación, la salida sigue el error a la línea 2 en la llamada de función `open()`. Y, por último, `FileNotFoundError` notifica de nuevo que el archivo o el directorio no existen.
 
